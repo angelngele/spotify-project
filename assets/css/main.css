@@ -1,0 +1,242 @@
+*{
+    font-family: 'Circular Std';
+}
+body{
+    background-color: #191414;
+    width: 100%;
+    height: 100vh;
+}
+.h1,h1,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+.heading h1{
+    font-weight: bold;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+.full-width{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    row-gap: 40px;
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 1200px) {
+    .full-width{
+        display: grid;
+        place-items: center;
+    }
+    .full-width-card{
+        display: grid;
+        place-items: center;
+    }
+    .full-width-categories{
+        display: grid;
+        place-items: center;
+    }
+    .heading h1{
+        text-align:center;
+    }
+    .heading-two h1{
+        text-align:center;
+    }
+    .heading-three h1{
+        text-align:center; 
+    }
+    .cards-one{
+        max-width: 220px;
+    }
+    .cards-two{
+        max-width: 220px;
+    }
+    .cards-three{
+        max-width: 220px;
+    }
+}
+.container img{
+    height: 16px;
+    float:left;
+    width: 16px;
+    top: 5px;
+    left: 150px;
+    border-radius: 0px;
+    position: relative;
+}
+.container-glass{
+    height: 202px;
+    width: 152px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 12px;
+}
+.container-glass img{
+    height: 128px;
+    width: 128px;
+    left: 5px;
+    top: 12px;
+    border-radius: 0px;
+    margin-bottom: 12px;
+}
+.container-glass h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.container-glass p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #B2B2B2;
+}
+
+.heading-two h1{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.full-width-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 60px;
+    row-gap: 40px;
+    /* place-items: center; */
+    margin-bottom: 32px;
+}
+.cards-one{
+    width: 332px;
+    height: 162px;
+    background-color: #E8115B;
+    border-radius: 4px;
+    padding: 12px;
+    left: 204px;
+    top: 460px;
+}
+.cards-one img{
+    height: 37px;
+    width: 37px;
+    border-radius: 0px;
+    margin-bottom: 8px;
+
+}
+.details{
+    padding-bottom: 9px;
+}
+.cards-one h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.cards-one p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.cards-two{
+    width: 332px;
+    height: 162px;
+    background-color: #1174E8;
+    border-radius: 4px;
+    padding: 12px;
+    left: 204px;
+    top: 460px;
+}
+.cards-two img{
+    height: 37px;
+    width: 37px;
+    border-radius: 0px;
+    margin-bottom: 8px;
+
+}
+.cards-two h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.cards-two p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.cards-three{
+    width: 332px;
+    height: 162px;
+    background-color: #11B4E8;
+    border-radius: 4px;
+    padding: 12px;
+    left: 204px;
+    top: 460px;
+}
+.cards-three img{
+    height: 37px;
+    width: 37px;
+    border-radius: 0px;
+    margin-bottom: 8px;
+}
+.cards-three h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.cards-three p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.heading-three h1{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.full-width-categories{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    row-gap: 40px;
+    margin-bottom: 40px;
+}
+.container-glass-categories{
+    width: 152px;
+    height: 196px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 12px;
+}
+.container-glass-categories img{
+    width: 152px;
+    height: 119px;
+    border-radius: 4px 4px 0px 0px;
+    margin-bottom: 12px;
+}
+.container-glass-categories h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 91px;
+}
